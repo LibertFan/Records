@@ -2,7 +2,7 @@
 
 ## 1. Sturcture
 
-Harvard: Structure Attetion
+Harvard: Structure Attention
 
 ## 2. Replace RNN
 
