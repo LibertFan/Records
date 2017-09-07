@@ -9,7 +9,7 @@ Generate coarse region candidates from anchor points of the last FCN layer.
 
 This is an alternative to RoI in the case that we don't have the tagged dataset.
 
-How to ganrantee the reasonability of region reversed in the original image.
+How to ganrantee the reasonability of region reversed in the original image ? 
 
 ### To Read List:
 
@@ -41,6 +41,6 @@ Why does submodular cooperating with greedily algorithm is able to approach the 
 
  3) Video summarization by learning submodular mixtures of objectives
 
-## Q1: During traning, how to pair region sequence and the corresponding question ?
+## Q1: During training, how to pair region sequence and the corresponding question ?
 
 ## 
