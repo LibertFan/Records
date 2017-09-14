@@ -4,15 +4,26 @@
 
 概率空间：非空集合$\Omega$为样本空间，事件的全体为事件域，是$\Omega$的一些子集的集合（子集类）。
 
-非空集合$\Omega$的一个子集类$\mathcal{F}$称为$\Omega$上的一个$\sigma-$域，如果：
+非空集合$\Omega$的一个子集类$\mathcal{F}$称为$\Omega$上的一个$\sigma$-域，如果：
 
-(1) $\emptyset, \Omega \in \mathcal{F}$
+(1) $\emptyset,\ \Omega \in \mathcal{F}$
 
 (2) $A\in \mathcal{F}, A^{c} \in \mathcal{F}$
 
 (3) $A_{n} \in \mathcal{F}, n\geq 1 \Longrightarrow \bigcup_{n}A_{n} \in \mathcal{F}$
 
+$\mathbb{P}$ 被称为概率测度，假如$\Omega$为样本空间，$\mathcal{F}$为$\Omega$上的$\sigma$-域，如果它满足：
+
+(1) 非负性: 对任何$A\in \mathcal{F},\ \mathbb{P}\geq 0$
+
+(2) 规范性: $\mathbb{P}(\Omega)=1$
+
+(3) 可列可加性: 对$\mathcal{F}$中互斥的可列个事件$\{A_{n}:n\geq 1\}$, 有
+$$\mathbb{P}(\bigcup_{n\geq 1} A_{n})=\sum_{n\geq 1}\mathbb{P}(A_{n})$$
+
 随机变量
+
+
 
 概率分布
 
