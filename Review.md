@@ -14,7 +14,7 @@
 
 $\mathbb{P}$ 被称为概率测度，假如$\Omega$为样本空间，$\mathcal{F}$为$\Omega$上的$\sigma$-域，如果它满足：
 
-(1) 非负性: 对任何$A\in \mathcal{F},\ \mathbb{P}\geq 0$；
+(1) 非负性: 对任何$A\in \mathcal{F},\ \mathbb{P}(A)\geq 0$；
 
 (2) 规范性: $\mathbb{P}(\Omega)=1$；
 
