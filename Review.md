@@ -8,9 +8,9 @@
 
 (1) $\emptyset,\ \Omega \in \mathcal{F}$
 
-(2) $A\in \mathcal{F}, A^{c} \in \mathcal{F}$
+(2) $A\in \mathcal{F},\ A^{c} \in \mathcal{F}$
 
-(3) $A_{n} \in \mathcal{F}, n\geq 1 \Longrightarrow \bigcup_{n}A_{n} \in \mathcal{F}$
+(3) $A_{n} \in \mathcal{F},\ n\geq 1 \Longrightarrow \bigcup_{n}A_{n} \in \mathcal{F}$
 
 $\mathbb{P}$ 被称为概率测度，假如$\Omega$为样本空间，$\mathcal{F}$为$\Omega$上的$\sigma$-域，如果它满足：
 
