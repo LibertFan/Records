@@ -5,9 +5,12 @@
 概率空间：非空集合$\Omega$为样本空间，事件的全体为事件域，是$\Omega$的一些子集的集合（子集类）。
 
 非空集合$\Omega$的一个子集类$\mathcal{F}$称为$\Omega$上的一个$\sigma-$域，如果：
-(1)$\emptyset, \Omega \in \mathcal{F}$
-(2)
-(3)
+
+(1) $\emptyset, \Omega \in \mathcal{F}$
+
+(2) $A\in \mathcal{F}, A^{c} \in \mathcal{F}$
+
+(3) $A_{n} \in \mathcal{F}, n\geq 1 \Longrightarrow \bigcup_{n}A_{n} \in \mathcal{F}$
 
 随机变量
 
