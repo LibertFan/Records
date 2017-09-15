@@ -37,9 +37,19 @@ $${\xi\leq x\}:=\{\omega\in\Omega:\xi(\omega)\leq x\}\in \mathcal{F}$$.
 
 ### 1.1 a.s.收敛
 
-$P({\omega\in \Omega: \lim_{n}\xi_{n}(\omega)\rightarrow=\xi(\omega)})=1$
+称$\xi_{n}$几乎处处收敛于$\xi$，如果
+
+$$P\big( \{ \omega\in \Omega: \lim_{n}\xi_{n}(\omega)\rightarrow\xi(\omega) \}\big)=1$$
+
+记为$\xi_{n}\rightarrow^{a.s.}\xi$
 
 ### 1.2 依概率收敛
+
+称$\{\xi_{n}\}$依概率收敛于$\xi$，如果对任意$\xi$：
+
+\begin{displaymth}
+\lim_{n}P( \{ \omega\in\Omega:|\xi_{n}(\omega)-\xi(\omega)|\geq \epsilon \} )=0
+\end{displaymath}
 
 ### 1.3 依分布收敛
 
