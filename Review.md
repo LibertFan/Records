@@ -22,6 +22,11 @@ $\mathbb{P}$ 被称为概率测度，假如$\Omega$为样本空间，$\mathcal{F
 $$\mathbb{P}(\bigcup_{n\geq 1} A_{n})=\sum_{n\geq 1}\mathbb{P}(A_{n})$$
 
 随机变量
+概率空间$(\Omega,\ \mathcal{F},\ \mathbb{P})$, $\Omega$为样本空间，$\mathcal{F}$为状态空间，$\mathbb{P}$为概率测度。
+$\xi:\ \mathcal{F}\rightarrow \mathbf{R}$是$\Omega$上的函数，称$\xi$为随机变量，如果对于任意$x\in \mathbf{R}$,
+$$\{\xi\leq x\}:=\{\omega\in\Omega:\xi(\omega)\leq x\}\in \mathcal{F}$$.
+
+即$\xi$为状态空间$\mathcal{F}$上的可测函数。
 
 
 
