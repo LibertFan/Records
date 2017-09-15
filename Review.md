@@ -2,7 +2,7 @@
 
 ## 0. 概率的定义
 
-概率空间：非空集合$\Omega$为样本空间，事件的全体为事件域，是$\Omega$的一些子集的集合（子集类）。
+**概率空间：**非空集合$\Omega$为样本空间，事件的全体为事件域，是$\Omega$的一些子集的集合（子集类）。
 
 非空集合$\Omega$的一个子集类$\mathcal{F}$称为$\Omega$上的一个$\sigma$-域，如果：
 
@@ -21,16 +21,13 @@ $\mathbb{P}$ 被称为概率测度，假如$\Omega$为样本空间，$\mathcal{F
 (3) 可列可加性: 对$\mathcal{F}$中互斥的可列个事件$\{A_{n}:n\geq 1\}$， 有：
 $$\mathbb{P}(\bigcup_{n\geq 1} A_{n})=\sum_{n\geq 1}\mathbb{P}(A_{n})$$
 
-随机变量
-概率空间$(\Omega,\ \mathcal{F},\ \mathbb{P})$, $\Omega$为样本空间，$\mathcal{F}$为状态空间，$\mathbb{P}$为概率测度。
+**随机变量：**概率空间$(\Omega,\ \mathcal{F},\ \mathbb{P})$, $\Omega$为样本空间，$\mathcal{F}$为状态空间，$\mathbb{P}$为概率测度。
 $\xi:\ \mathcal{F}\rightarrow \mathbf{R}$是$\Omega$上的函数，称$\xi$为随机变量，如果对于任意$x\in \mathbf{R}$,
 $$\{\xi\leq x\}:=\{\omega\in\Omega:\xi(\omega)\leq x\}\in \mathcal{F}$$.
 
 即$\xi$为状态空间$\mathcal{F}$上的可测函数。
 
-
-
-概率分布
+**概率分布：**
 
 ## 1 不同的收敛的方式
 
