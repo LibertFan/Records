@@ -47,11 +47,11 @@ $$P\big( \{ \omega\in \Omega: \lim_{n}\xi_{n}(\omega)\rightarrow\xi(\omega) \}\b
 
 称$\{\xi_{n}\}$依概率收敛于$\xi$，如果对任意$\xi$：
 
-\begin{displaymth}
-\lim_{n}P( \{ \omega\in\Omega:|\xi_{n}(\omega)-\xi(\omega)|\geq \epsilon \} )=0
-\end{displaymath}
+$$\lim_{n}P( \{ \omega\in\Omega:|\xi_{n}(\omega)-\xi(\omega)|\geq \epsilon \} )=0$$
 
 ### 1.3 依分布收敛
+
+
 
 ### 1.4 平方均值收敛
 
