@@ -8,7 +8,7 @@
   
     模型的 Loss Function 如下所示：
     
-    $$ \min_{G}\max_{D}V(G,D)=\mathbb{E}+ \mathbb{E}$$
+    $$ \min_{G}\max_{D}V(G,D)=\mathbb{E}_{x\sim P_{data}}log\big(D(x)\big)+ \mathbb{E}_{x\sim P_{\mathbf{z}}(z)}\big(1-D\big(G(x)\big)\big)$$
  
     整个模型的 Loss Function 会在真实数据的分布和生成数据的分布相同的时候达到最大值。
     
