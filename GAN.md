@@ -6,9 +6,9 @@
 
 (2) GAN的结构为什么可以保证生成的数据可以足够贴近真是的数据：
   
-    模型的 Loss Function 如下所示，为了标记的方便，我们可以将x的真是分布记作$p_{g}(x):
+    模型的 Loss Function 如下所示，为了标记的方便，我们可以将x的真是分布记作$p_{g}(x)$:
  
-    $$ \min_{G}\max_{D}V(G,D)=\mathbb{E}_{x\sim P_{data}}log\big(D(x)\big)+ \mathbb{E}_{x\sim P_{\mathbf{z}}(z)}\big(1-D\big(G(x)\big)\big)$$
+    $$ \min_{G}\max_{D}V(G,D)=\mathbb{E}_{x\sim P_{data}} log\big(D(x)\big)$$
     
  
     我们将上面的式子写成积分的形式，那么就可以看到：
