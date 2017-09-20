@@ -8,7 +8,7 @@
   
 模型的 Loss Function 如下所示:
  
-$$ \min_{G}\max_{D}V(G,D)=\mathbb{E}_{x \sim P(x)} \big[ log \big( D(x) \big) \big] + \mathbb{E}_{z \sim P(z)} \big[ 1 - D\big( G(z) \big) \big]$$
+$$ \min_{G}\max_{D}V(G,D)=\mathbb{E}_{x\sim P(x)} [log(D(x))] + \mathbb{E}_{z\sim P(z)} $$
     
  
 为了标记的方便，我们可以将x的真是分布记作$p_{g}(x)$
