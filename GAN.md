@@ -28,8 +28,12 @@ $$\int log\big(D(x)\big)p_{data}(x) $$
 
 ## 1.3 反思
 
-# 2.  
+# 2. Maximum-Likelihood Augmented Discrete Generative Adversial Networks
 
-# 3
+这里使用的是最优的情况来进行处理的，但是在训练当中我们并不能够保证训练器在初始的 epoch 当中，
+并不能够保证分类器已经达到最优。所以我们可以尝试使用的别的来修改这篇文章给出的结论。
+
+# 3. WGAN and WGAN-GP
+
 
 # 4
