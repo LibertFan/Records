@@ -24,3 +24,6 @@ tf.GraphKeys.LOCAL_VARIABLES 是不用计算梯度，也就是说维持变量不
 
 3.1. tf.name_scope 主要是用在 op 上，而 tf.vairiable_scope 主要作用在 variable 上。
 
+## 4. tf.get_collections
+
+上面这个函数在获取某些特定 variable_scope 变量以用于之后的操作的过程当中的时候出错了。
