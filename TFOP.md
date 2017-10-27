@@ -27,3 +27,5 @@ tf.GraphKeys.LOCAL_VARIABLES 是不用计算梯度，也就是说维持变量不
 ## 4. tf.get_collections
 
 上面这个函数在获取某些特定 variable_scope 变量以用于之后的操作的过程当中的时候出错了。
+
+现在替代的方式是按照变量名字来找，这个方式虽然可行，但是很蠢。
