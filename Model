@@ -12,3 +12,10 @@
 
 2. Optimizing the gradient descent
 
+
+# Label Smooth
+
+小的网络应该怎么训练？
+
+先学一个大的网络，然后小的网络来学习大的网络？
+
